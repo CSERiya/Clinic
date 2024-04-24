@@ -1,0 +1,151 @@
+ .profile{
+    margin: 50px;
+    margin-left: 65px;
+    margin-right: 65px;
+    box-sizing: border-box;
+    border: 1px solid gainsboro;
+    height: 250px;
+    width: 1220px;
+}
+.top-contents{
+    flex: 1; 
+  display: flex;
+  align-items: center; 
+  overflow: hidden; 
+  height: 125px;
+  border-radius: 0.1cm;
+}
+
+ .pattern{
+    height: 125px;
+    width: 1220px;
+}
+
+  .doctor-pic {
+    display: flex;
+    position: absolute;
+   height: 120px;
+   width: 120px;
+   margin-top: 180px;
+   margin-left: 20px;
+  }
+
+  .bottom-contents{
+    flex: 1; 
+    display: flex;
+    height: 125px;
+    background-color: #fffdf8;
+    border: 1px solid gainsboro;
+  }
+
+  .contents{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 4cm;
+  }
+
+  .first{
+    margin: 20px auto;
+  }
+
+  h4 {
+    margin: 3px 0 0; 
+  }
+
+  .fa-check-circle {
+    color: blue; 
+    margin-left: 3px; 
+  }
+
+  p{
+    margin: 5px 0 0;
+  }
+  
+  .speciality {
+    margin: 5px 0; 
+    margin-left: -50px;
+    color: green;
+  }
+
+  .rating{
+margin-left: -50px;
+  }
+
+  .stars {
+    color: #f0c419; 
+      display: inline-block; /* Make the <span> inline-block */
+      vertical-align: middle; /* Align it vertically in line with the rating */
+      margin-left: 4px;
+      font-size: 15px;
+      margin-top: -6px;
+  }
+
+.second{
+    margin-left: 100px;
+}
+
+.upper{
+    margin-left: 80px;
+display: flex;
+align-items: center;
+justify-content: space-between;
+margin: 10px;
+gap: 80px;
+color: green;
+margin-bottom: 10px;
+}
+
+.lower{
+    display: flex;
+    align-items: center;
+justify-content: space-evenly;
+margin-bottom: 10px;
+margin-top: -10px;
+}
+
+.one{
+   margin-left: 14px;
+}
+.two{
+    margin-left: 100px;
+}
+  .three{
+    margin-left: 84px;
+  }
+  .third{
+    margin-left: 120px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+
+  .third > button{
+    border: 1px solid #3A643B;
+    border-radius: 6px;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #3A643B;
+    cursor: pointer;
+  }
+
+  .third > button:hover{
+    transform: scale(1.1); 
+    box-shadow: 0px 4px 8px #3A643B; 
+    z-index: 1; 
+}
+
+.profile:hover{
+  box-shadow: 0px 4px 8px rgb(190, 231, 217);; 
+    z-index: 1; 
+}
+
+
+    
+
+    
+
+     

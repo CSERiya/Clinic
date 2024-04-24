@@ -1,0 +1,81 @@
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-sizing: border-box;
+    background-color: #FFF7E2;
+}
+
+.navbar > h2{
+    color: green;
+}
+
+.contents{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 50px;
+    color: #626262;
+    font-size: 15px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.doctor{
+    color: green;
+}
+
+.navlogincart{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 10px;
+}
+
+.login{
+    border: 1px solid green;
+    border-radius: 6px;
+    color: black;
+    font-size: 20px;
+    font-weight: 500;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    background-color: #FFF7E2;
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.signup{
+    border: 1px solid #3A643B;
+    border-radius: 6px;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    background-color: #3A643B;
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+    .contents>span:hover {
+        transform: scale(1.1); 
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); 
+        z-index: 1; 
+      }
+
+      .login:hover{
+            transform: scale(1.1); 
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); 
+            z-index: 1; 
+      }
+
+      .signup:hover{
+        transform: scale(1.1); 
+        box-shadow: 0px 4px 8px #3A643B; 
+        z-index: 1; 
+  }
