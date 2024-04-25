@@ -74,8 +74,8 @@ margin-left: -50px;
 
   .stars {
     color: #f0c419; 
-      display: inline-block; /* Make the <span> inline-block */
-      vertical-align: middle; /* Align it vertically in line with the rating */
+      display: inline-block; 
+      vertical-align: middle;
       margin-left: 4px;
       font-size: 15px;
       margin-top: -6px;
